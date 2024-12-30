@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrology</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body style="background-color: rgba(230, 197, 12, 0.76);">
+    <header>
+        <h1>Astro-Luck</h1>
+    </header>
+    <div class="container">
+        <form id="astroform">
+            <label for="fname">First Name</label>
+            <input type="text" name="Firstname" id="fname">
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lastname" id="lname" >
+
+            <label for="date">Date Of Birth:(Day)</label>
+            <input type="number" name="_date" id="date"  min="1" max="31">
+
+            <label for="month">Date Of Birth:(Month)</label>
+            <input type="number" name="_month" id="month"  min="1" max="12">
+
+            <label for="year">Date Of Birth:(Year)</label>
+            <input type="number" name="_year" id="year" min="1900" max="2050">
+
+            <button type="submit" id="sub">Get Insight</button>
+        </form>
+
+        <div class="result" id="res">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem fugit nulla accusamus quos, perferendis atque suscipit corrupti debitis reiciendis non alias esse optio quod illum, qui rem ducimus veniam at.</div>
+
+        <footer>
+            <p>&copy; All rights are reserved by <span>Astro-Luck</span></p>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
